@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.assignment.HCI.limko" >
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:label="Limko" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity1"
+            android:label="@string/title_activity_activity1" >
+        </activity>
+        <activity
+            android:name=".CameraActivity"
+            android:label="@string/title_activity_camera" >
+        </activity>
+        <activity
+            android:name=".ContactActivity"
+            android:label="@string/title_activity_contact" >
+        </activity>
+        <activity
+            android:name=".coursesActivity"
+            android:label="@string/title_activity_twitter" >
+        </activity>
+        <activity
+            android:name=".FacebookActivity"
+            android:label="@string/title_activity_facebook" >
+        </activity>
+        <activity
+            android:name=".WebActivity"
+            android:label="@string/title_activity_web" >
+        </activity>
+        <activity
+            android:name=".WebActivity2">
+        </activity>
+        <activity
+            android:name=".SemestersActivity"
+            android:label="@string/title_activity_semesters" >
+        </activity>
+        <activity
+            android:name=".Semester1_activity"
+            android:label="@string/title_activity_semester1_activity" >
+        </activity>
+        <activity
+            android:name=".Semester2Activity"
+            android:label="@string/title_activity_semester2" >
+        </activity>
+        <activity
+            android:name=".Semester3Activity"
+            android:label="@string/title_activity_semester3" >
+        </activity>
+        <activity
+            android:name=".Semester4Activity"
+            android:label="@string/title_activity_semester4" >
+        </activity>
+        <activity
+            android:name=".Semester5Activity"
+            android:label="@string/title_activity_semester5" >
+        </activity>
+        <activity
+            android:name=".Semester6Activity"
+            android:label="@string/title_activity_semester6" >
+        </activity>
+        <activity
+            android:name=".GalleryActivity"
+            android:label="@string/title_activity_gallery" >
+        </activity>
+        <activity
+            android:name="com.assignment.HCI.limko.Main2Activity"
+            android:label="@string/title_activity_main2" >
+        </activity>
+    </application>
+
+</manifest>
